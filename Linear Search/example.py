@@ -7,7 +7,7 @@ Target: 54
 
 
 def Linear_Search(Data, target):
-    for num in range(len(data)):
+    for num in range(len(Data)):
         if Data[num] == (Target):
-            Return True
-    Return False
+            return True
+    return False
