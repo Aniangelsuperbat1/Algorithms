@@ -15,3 +15,13 @@
 # Uses:
 # 	-Job scheduling in computers. Which task is to be completed and when
 # 	-Printer Queues. Whos documents are printed first.
+
+
+queue = []
+
+queue.append("data 1")
+queue.append("data 2")
+
+print(queue)
+queue.pop(0)
+print(queue)
