@@ -25,3 +25,19 @@ queue.append("data 2")
 print(queue)
 queue.pop(0)
 print(queue)
+
+
+foods = []
+
+while True:
+    data = input()
+    if str.lower(data) == "pizza":
+        break
+    elif str.lower(data) == "pies":
+        print("removing:", foods.pop(0))
+    else:
+        foods.append(data)
+    print(foods)
+
+for food in foods:
+    print("you said:", food)
