@@ -1,6 +1,7 @@
 # Takes an un ordered list and sorts them in ascending value
 # Compares two values at any given time.
 # loops through lists and sorts it
+# o(n*2)
 
 def bubble_sort(list_a):
     indexing_length = len(list_a) - 1
